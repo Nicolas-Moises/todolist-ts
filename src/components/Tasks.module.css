@@ -1,0 +1,61 @@
+.tasksBox {
+  margin-top: 4rem;
+  max-width: 46rem;
+  width: 100%;
+  margin: 5.625rem auto 0;
+  padding: 0 1rem;
+}
+
+.tasksHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tasks {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.taskCreated {
+  color: var(--blue-300);
+}
+
+.taskDone {
+  color: var(--purple-300);
+}
+
+.taskNumbered {
+  background: var(--gray-400);
+  padding: 2px 8px;
+  border-radius: 1rem;
+  color: var(--gray-100);
+}
+
+.tasksEmpty {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify: center;
+  margin-top: 4rem;
+  font-size: 1rem;
+}
+
+.tasksEmpty h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.tasksList {
+  border-top: 1px solid var(--gray-400);
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}

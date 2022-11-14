@@ -1,0 +1,9 @@
+.bodyPadding {
+  padding: 0 1rem;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 85%;
+  }
+}
