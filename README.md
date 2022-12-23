@@ -7,3 +7,5 @@
 ##### preview
 
 ![preview](/src/assets/cover.png)
+
+#### deploy - https://todolistreactignitechallenge.netlify.app/
